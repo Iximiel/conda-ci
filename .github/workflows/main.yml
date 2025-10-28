@@ -20,11 +20,16 @@ jobs:
           - ubuntu-22.04
           - ubuntu-24.04
           - macos-13
-          - macos-14-xlarge #or macos-14 (arm64)
+          - macos-14 # (arm64)
+          - macos-14-xlarge # (arm64)
           - macos-14-large
+          - macos-15 # (arm64)
           - macos-15-xlarge #or macos-15 (arm64)
           - macos-15-intel
+          - macos-15-large
           - macos-26-xlarge # (arm64)
+          - macos-latest #(depends [arm])
+          - macos-latest-large #(depends)
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
